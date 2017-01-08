@@ -920,8 +920,8 @@ used by an encryption algorithm even in the presence of an
 eavesdropper. The most widely used algorithm that allows
 two users to safely exchange an integer in the presence of
 an eavesdropper is the one proposed by Diffie and Hellman [DH1976]_.
-It operates with (large) integers. Two of them are public, the
-base, :math:`g`, which is prime and the modulus, :math:`p`, which
+It operates with (large) integers. Two of them are public, the modulus, :math:`p`,
+which is prime and the base, :math:`g`, which
 must be a primitive root of :math:`p`. The communicating users
 select a random integer, :math:`a` for Alice and :math:`b` for
 Bob. The exchange starts as :
